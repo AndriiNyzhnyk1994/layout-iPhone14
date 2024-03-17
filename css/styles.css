@@ -54,6 +54,8 @@ body {
     flex-grow: 1;
     flex-basis: 0;
     text-align: right;
+    font-size: 24px;
+    line-height: 29px;
 }
 
 /* ---------------HEADLINE SECTION---------------- */
@@ -202,7 +204,20 @@ body {
     cursor: pointer;
 }
 
-.contant-text {
+/* ------------------FOOTER------------------------ */
+
+.footer{
+    background-color: #0a0a0a;
 }
-.contact-img {
+
+.footer-inner{
+    color: #717171;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.footer-link {
+    flex-grow: 1;
+    flex-basis: 0;
 }
