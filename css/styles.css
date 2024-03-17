@@ -148,3 +148,61 @@ body {
 .color-item p {
     margin: 0;
 }
+
+/* --------------------CONTACT SECTION----------------- */
+
+.contact {
+}
+.contact-inner {
+    display: flex;
+    background-color: #574B63;
+    color: #fff;
+}
+.contact-form {
+    width: 100%;
+    padding: 140px 93px;
+    text-align: center;
+}
+.contact-title {
+    margin: 0 0 60px;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: left;
+}
+.contanct-input {
+    padding: 10px 0;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contanct-input::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+    color: #fff;
+    opacity: 0.5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.contact-form p {
+    margin: 30px 0;
+    opacity: 0.5;
+    text-align: center;
+}
+.contact-form button {
+    border: none;
+    text-transform: uppercase;
+    color: #490e84;
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 16px 81px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.contant-text {
+}
+.contact-img {
+}
